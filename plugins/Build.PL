@@ -7,7 +7,7 @@ my $version = `../getversion`;
 chomp($version);
 
 my $build = PluginsBuilder->new(
-    module_name    => 'Munin::Plugins',
+    dist_name      => 'Munin::Plugins',
     dist_version   => $version,
     dist_author    => 'The Munin Team <munin-users@lists.sourceforge.net>',
     dist_abstract  => 'The Munin Plugin module',

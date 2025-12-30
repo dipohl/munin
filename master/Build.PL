@@ -7,7 +7,7 @@ my $version = `../getversion`;
 chomp($version);
 
 my $build = MasterBuilder->new(
-    module_name    => 'Munin::Master',
+    dist_name      => 'Munin::Master',
     dist_version   => $version,
     dist_author    => 'The Munin Team <munin-users@lists.sourceforge.net>',
     dist_abstract  => 'The Munin Master',
