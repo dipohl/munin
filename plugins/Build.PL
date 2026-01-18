@@ -20,4 +20,5 @@ my $build = PluginsBuilder->new(
         'Net::SNMP'   => 0,
     },
 );
+$build->dispatch('manifest');
 $build->create_build_script;

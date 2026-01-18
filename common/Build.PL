@@ -16,4 +16,5 @@ my $build = Module::Build->new(
     },
 
 );
+$build->dispatch('manifest');
 $build->create_build_script;

@@ -28,6 +28,7 @@ my $build = NodeBuilder->new(
         'Net::SNMP'   => 0,
     },
 );
+$build->dispatch('manifest');
 $build->create_build_script;
 
 

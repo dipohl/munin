@@ -28,4 +28,5 @@ my $build = MasterBuilder->new(
         #'Net::SSLeay' => 0, In Munin::Common?
     },
 );
+$build->dispatch('manifest');
 $build->create_build_script;
