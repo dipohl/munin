@@ -68,7 +68,7 @@ EOF
 
 
 generate_version_string_from_dir() {
-    basename "`pwd`" | grep -e '^munin-' | cut -c 7-
+    basename "`cd ..;pwd`" | grep -e '^munin-' | cut -c 7-
 }
 
 
